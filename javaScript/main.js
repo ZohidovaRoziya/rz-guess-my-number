@@ -20,20 +20,20 @@ let gameNumL = ( (random1 == numberFirst)  && (random1 == numberTwo) && (random1
 
 
 if (gameNum1){
-    alert(`Tabriklaymiz SiZ kiritgan Barcha sonlari MeN o'ylagan sonlarga teng!` )
+    alert(`Tabriklaymiz SiZ Kiritgan Barcha Sonlari MeN O'ylagan Sonlarga Teng!` )
 } else if (gameNumF1){
-    alert(`Siz birinchi kiritgan ${numberFirst} soni xato qiymat!` )
+    alert(`Siz Birinchi Kiritgan ${numberFirst} Soni Xato Qiymat!` )
 } else if (gameNumF2){
-    alert(`Siz birinchi va ikkinchi kiritgan ${numberFirst} va  ${numberTwo} sonlari xato qiymat!` )
+    alert(`Siz Birinchi va Ikkinchi Kiritgan ${numberFirst} va  ${numberTwo} Sonlari Xato Qiymat!` )
 } else if (gameNumF3){
-    alert(`Siz birinchi va uchunchi kiritgan ${numberFirst} va  ${numberLast} sonlari xato qiymat!` )
+    alert(`Siz Birinchi va uchunchi kiritgan ${numberFirst} va  ${numberLast} Sonlari Xato Qiymat!` )
 } else if (gameNumT1){
-    alert(`Siz ikkinchida kiritgan ${numberTwo} soni xato qiymat!` )
+    alert(`Siz Ikkinchida Kiritgan ${numberTwo} Soni Xato Qiymat!` )
 }  else if (gameNumT2){
-    alert(`Siz ikkinchi va uchunchi kiritgan ${numberTwo} va  ${numberLast} sonlari xato qiymat!` )
+    alert(`Siz Ikkinchi va Uchunchi Kiritgan ${numberTwo} va  ${numberLast} Sonlari Xato Qiymat!` )
 }  else if (gameNumL){
-    alert(`Siz uchunchi kiritgan ${numberLast} soni xato qiymat!` )
+    alert(`Siz Uchunchi Kiritgan ${numberLast} Soni Xato Qiymat!` )
 } else {
-    alert(`Kechirasiz barcha siz kirtagan  ${numberFirst} , ${numberTwo} va ${numberLast} sonlari Xato qiymatlar edi!`)
+    alert(`Kechirasiz Barcha Siz Kirtagan  ${numberFirst} , ${numberTwo} va ${numberLast} Sonlari Xato Qiymatlar edi!`)
 }
 
