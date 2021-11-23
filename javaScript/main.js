@@ -20,7 +20,7 @@ let gameNumL = ( (random1 == numberFirst)  && (random1 == numberTwo) && (random1
 
 
 if (gameNum1){
-    alert(`Tabriklaymiz SiZ Kiritgan Barcha Sonlari MeN O'ylagan Sonlarga Teng!` )
+    alert(`Tabriklaymiz Siz Kiritgan Barcha Sonlari Men O'ylagan Sonlarga Teng!` )
 } else if (gameNumF1){
     alert(`Siz Birinchi Kiritgan ${numberFirst} Soni Xato Qiymat!` )
 } else if (gameNumF2){
